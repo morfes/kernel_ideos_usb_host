@@ -1,5 +1,7 @@
 I added the patch Sven for the Usb Host and enabled its modules into the kernel "config". The kernel starts the frequencies min 30Mhz max 652Mhz, multitouch, swap support, nfs, tun, cifs, ext3-4.
 
+With this kernel mode you lose the gadget, you can not mount the sd on the pc.
+
 Info Sven patch: http://sven.killig.de/android/Ideos/usb_host/
 
 By Morfes
