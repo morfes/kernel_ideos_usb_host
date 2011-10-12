@@ -1,0 +1,21 @@
+--- kernel/arch/arm/mach-msm/board-msm7x25.c	2010-09-16 10:36:49.000000000 +0700
++++ kernelpatched/arch/arm/mach-msm/board-msm7x25.c	2011-03-31 23:27:41.576910000 +0700
+@@ -3006,15 +3006,10 @@
+     {
+          return -ENOMEM;
+     }
+-
+-    if( machine_is_msm7x25_u8500())
+-    {
++//----------------------------------------------
++//Return true for all devices
++//----------------------------------------------
+          *is_surport_fingers = true;
+-    }
+-    else    
+-    {
+-        *is_surport_fingers = false;
+-    }
+ 
+     return result;
+ }
